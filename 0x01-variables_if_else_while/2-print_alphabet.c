@@ -1,21 +1,18 @@
 #include <stdio.h>
 /**
- * main - Entry Point
- *
- * Description: A program will print from a to z
- *
- * Return: 0 (Success)
+ * main - Entry point
+ * description: 'print alphabets lowercase'
+ * Return: Always 0
  */
 int main(void)
 {
-	char x = 'a';
+	int n = 97;
 
-	while (x <= 'z')
+	while (n <= 122)
 	{
-		putchar("%cx");
-		x++,
+		putchar(n);
+		n++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
-
