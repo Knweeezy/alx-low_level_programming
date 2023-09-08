@@ -1,12 +1,9 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
- * Description: A program that prints all alpha except q and e
- *
- * Return: 0 (Success)
+ * description: 'print alphabets except q and e'
+ * Return: Always 0
  */
-
 int main(void)
 {
 	int n = 97;
@@ -15,10 +12,9 @@ int main(void)
 	{
 		if (n == 101 || n == 113)
 		{
-			n++,
+			n++;
 			continue;
 		}
-
 		putchar(n);
 		n++;
 	}
