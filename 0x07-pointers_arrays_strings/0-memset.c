@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * _memset - fills memory
- * @s: memory size
- * @b: constant
- * @n: bytes filled
- * Return: the pointer to dest.
+ * _memset - Entry point
+ * @s: pointed destination
+ * @b: constant byte
+ * @n: bytes
+ * Return: Always 0 (Success)
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int y;
+	unsigned int i;
 
-	for (y = 0; y < n; y++)
-		*(s + y) =  b;
-
+	for (i = 0; i < n; i++)
+		s[i] = b;
 	return (s);
 }
