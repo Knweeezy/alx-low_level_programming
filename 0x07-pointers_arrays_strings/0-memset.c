@@ -2,9 +2,9 @@
 
 /**
  * _memset - fills memory
- * @s: memory space
- * @b: const size
- * @n: bytes filled.
+ * @s: memory size
+ * @b: constant
+ * @n: bytes filled
  * Return: the pointer to dest.
  */
 char *_memset(char *s, char b, unsigned int n)
