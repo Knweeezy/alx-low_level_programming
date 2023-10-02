@@ -1,14 +1,18 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Prints
- * @argc: The number
- * @argv: An array
+ * main - print
+ * @argc: argument
+ * @argv: argument
  *
- * Return: Always o.
+ * Return: always zero
  */
+
 int main(int argc, char *argv[])
+
 {
+	(void) argc;
 	printf("%s\n", argv[0]);
 
 	return (0);
